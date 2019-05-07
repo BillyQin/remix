@@ -76,7 +76,8 @@ var builtinFunctions = {
   'require(bool,string memory)': true,
   'gasleft()': true,
   'blockhash(uint)': true,
-  'address(address)': true
+  'address(address)': true,
+  'ecdh25519computesecret(bytes32,bytes32)': true
 }
 
 var lowLevelCallTypes = {
